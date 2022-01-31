@@ -1,4 +1,5 @@
 // Plants all over field with given plant id
+// If u are going to plant corn (which is 2x2 in size on the field) u must specify correct ids in `felder` (!)
 function plantAll(id){
     for(let i =1; i<=120; i++)
         cache.push({
